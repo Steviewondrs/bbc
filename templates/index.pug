@@ -4,24 +4,11 @@ html(lang="en")
         title Vito 20th anniversary
         link(rel="stylesheet" href="css/main.min.css")
     body
-        header.header
-            .header__logo
-                img(src="img/vito_logo@2x.png")
-            nav.header__nav
-                ul
-                    li 
-                        a(href="#") agenda
-                    li 
-                        a(href="#") 20 years
-                    li 
-                        a(href="#") register
-        .hero
-            h1 test
-            h2 test
-            h3 test
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ex dolor. Quisque sed ultrices diam. Pellentesque vestibulum purus vitae dui rhoncus volutpat. Cras efficitur est sit amet elit egestas eleifend. Nullam vulputate eleifend elit. Ut elementum maximus augue vel bibendum. Mauris justo est, efficitur at tellus eu, cursus ornare magna. Integer lobortis et nisl eget finibus. Donec sit amet vehicula sapien, eu commodo tortor. Integer at fermentum metus. Proin ac facilisis massa, at molestie dui. Aliquam efficitur lectus nec ante efficitur blandit. Aliquam venenatis tempus lacus nec volutpat. Fusce hendrerit tellus eu dui facilisis dignissim sit amet vitae nunc.
+        include header
+        include hero
+        include introduction
 
-
+        include footer
 
     script(src="https://code.jquery.com/jquery-3.2.1.min.js")
     script(src="js/main.js")
