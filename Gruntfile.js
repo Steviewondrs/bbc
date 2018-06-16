@@ -96,8 +96,8 @@ module.exports = function (grunt) {
 
     // register tasks
     grunt.registerTask('default', ['build', 'watch']);
-    grunt.registerTask('fonts', ['clean:fonts', 'copy:fonts']);
+    // grunt.registerTask('fonts', ['clean:fonts', 'copy:fonts']);
     grunt.registerTask('css', ['sass', 'postcss', 'cssmin']);
-    grunt.registerTask('build', ['fonts', 'css', 'pug']);
+    grunt.registerTask('build', ['css', 'pug']);
 
 }
