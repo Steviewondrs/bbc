@@ -1,0 +1,8 @@
+.grid {
+    display: flex;
+    justify-content: space-between;
+
+    .grid__item {
+        flex: 1;
+    }
+}
