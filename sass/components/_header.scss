@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin: 36px 40px;
+    img {
+        height: 67px;
+    }
+}
+
+.header__nav {
+    @include reset('list');
+
+    ul li {
+        display: inline-block;
+    }
+
+    li + li {
+        margin-left: 20px;
+    }
+
+    a {
+        @include reset('link');
+    }
+}

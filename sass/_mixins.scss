@@ -1,0 +1,17 @@
+@mixin reset( $type ) {
+	@if ($type == 'list') {
+		padding: 0;
+		margin: 0;
+		
+		> li {
+			list-style-type: none;
+		}/*  */
+    }
+    @else if ($type == 'link') {
+        text-decoration: none;
+        &:visited,
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
