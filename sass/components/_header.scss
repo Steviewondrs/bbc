@@ -26,5 +26,6 @@
 
     a {
         @include reset('link');
+        color: $brand--secondary;
     }
 }
