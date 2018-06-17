@@ -34,8 +34,16 @@
     }
 
     &__body {
-        font-family: 'proxima_nova_scosfthin';
-        
+        font-family: 'proxima_nova_scosfthin';     
     }
 
+    &__link {
+        & + & {
+            margin-left: 35px;
+        }
+    }
+}
+
+.footer__links {
+    text-align: right;
 }
