@@ -1,0 +1,44 @@
+.footer {
+    background-color: $brand--primary;
+    padding: 50px 30px;
+}
+
+.footer__item {
+    & + & {
+        margin-top: 66px;
+    }
+
+    &__title,
+    &__body {
+        margin: 0;
+    
+        font-size: 15px;
+        line-height: 1.4;
+        color: $white;
+
+        a {
+            color: $white;
+            border-color: $white;
+        }
+
+        a + a {
+            margin-left: 30px;
+        }
+    }
+
+    &__title {
+        font-family: 'proxima_nova_altbold';
+        text-transform: uppercase;
+
+        a {
+            font-family: 'proxima_nova_altbold';
+            border: none;
+        }
+    }
+
+    &__body {
+        font-family: 'proxima_nova_scosfthin';
+        
+    }
+
+}
