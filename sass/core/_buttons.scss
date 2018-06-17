@@ -1,0 +1,16 @@
+.btn {
+    @include reset('link');
+
+    padding: 30px 50px 30 38px;
+    width: 275px;
+
+    font-family: 'proxima_nova_altbold', sans-serif;
+    font-size: 18px;
+    line-height: 44pt;
+    color: $brand--primary;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+    border: 4px solid $brand--primary;
+
+}

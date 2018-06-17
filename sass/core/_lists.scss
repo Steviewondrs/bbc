@@ -1,0 +1,10 @@
+li {
+    color: $white;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    
+    & + & {
+        margin-top: 40px;
+    }
+    
+}

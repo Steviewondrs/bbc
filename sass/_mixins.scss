@@ -6,8 +6,7 @@
 		> li {
 			list-style-type: none;
 		}/*  */
-    }
-    @else if ($type == 'link') {
+    } @else if ($type == 'link') {
         text-decoration: none;
         &:visited,
         &:hover {

@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'proxima_nova_altblack', sans-serif;
+    font-family: 'proxima_nova_altbold', sans-serif;
     color: $brand--primary;
     text-transform: uppercase;
 }
@@ -29,6 +29,7 @@ h1 {
 h2 {
     font-size: 64px;
     line-height: 65pt;
+    letter-spacing: 4px;
 }
 
 h3 {
