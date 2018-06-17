@@ -1,0 +1,39 @@
+.intro {
+    margin-top: 175px;
+}
+
+.intro__container {
+    background-color: $white;
+    padding-bottom: 30px;
+}
+
+.intro__title {
+    color: $white;
+    margin-top: 0;
+}
+.intro__subtitle {
+    margin-top: 0;
+    margin-left: 30px;
+    color: $white;
+}
+
+.intro__cta {
+    background-color: $brand--primary;
+
+    transform: translate(-75px, -60px);
+    padding-left: 70px;
+}
+
+.intro__btn {
+    margin-left: 30px;
+    margin-bottom: 77px
+}
+
+.intro__text {
+    padding-left: 0;
+    padding-right: 100px;
+
+    p {
+        margin-left: 26px;
+    }
+}
