@@ -13,6 +13,7 @@
 .hero__logo {
     position: relative;
     transform: translateY(-24px);
+    z-index: 0;
 }
 
 .hero__logo--top-img {

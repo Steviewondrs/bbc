@@ -26,6 +26,10 @@
 
     a {
         @include reset('link');
+        border: none;
+        
         color: $brand--secondary;
+        font-family: "Proxima Nova";
+        z-index: 1;
     }
 }
