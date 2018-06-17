@@ -1,0 +1,34 @@
+.schedule__container {
+    background: $white;
+    background-image: url('../img/bg_man.png');
+
+    background-size: cover;
+}
+
+.schedule__title {
+    margin-top: 0;
+    margin-bottom: 44px;
+}
+
+.schedule__subtitle {
+    margin-top: 0;
+}
+
+.schedule__list {
+    @include reset('list');
+
+    margin-bottom: 96px;
+
+    li {
+        position: relative;
+        
+    }
+    li:before {
+        content: attr(data-hour);
+        position: absolute;
+        right: calc(100% + 24px);
+
+        font-family: 'proxima_nova_scosfthin';
+        font-style: italic;
+    }
+}

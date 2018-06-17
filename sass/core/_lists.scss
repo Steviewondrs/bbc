@@ -1,10 +1,13 @@
 li {
-    color: $white;
+    color: $brand--primary;
     font-family: "Proxima Nova";
     font-size: 20px;
     
     & + & {
         margin-top: 40px;
     }
-    
+}
+
+ul.list--secondary li{
+    color: $white;
 }
