@@ -1,6 +1,11 @@
 $container-width: 1230px;
 $secondary-container-width: 1080px;
 
+// Reset box-sizing
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
 a {
     font-family: 'Proxima Nova', sans-serif;
     text-decoration: none;
@@ -23,25 +28,37 @@ h6 {
 
 h1 {
     font-size: 48px;
-    line-height: 48pt
+    line-height: 1.5;
 }
 
 h2 {
     font-size: 64px;
-    line-height: 65pt;
-    letter-spacing: 4px;
+    line-height: 1;
+    letter-spacing: 10px;
+
+    margin: 20px 0 50px;
 }
 
 h3 {
     font-size: 24px;
-    line-height: 24pt;
+    line-height: 1.5;
+
+    margin: 50px 0 30px;
+
+    & + & {
+        margin-top: 0pxÎ;
+    }
 }
 
 p {
     font-family: 'Proxima Nova';
     font-size: 20px;
-    line-height: 27pt;
+    line-height: 1.7;
     color: $brand--primary;
+
+    & + & {
+        margin-top: 40px;
+    }
 }
 
 

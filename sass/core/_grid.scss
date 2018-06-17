@@ -2,7 +2,15 @@
     display: flex;
     justify-content: space-between;
 
-    .grid__item {
-        flex: 1;
-    }
+    
+}
+
+.grid-item {
+    flex: 1;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    // & + & {
+    //     margin-left: 48px
+    // }
 }
