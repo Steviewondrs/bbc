@@ -1,0 +1,23 @@
+.selling-points {
+    background-image: url('../img/globe_white@2x.png');
+    background-size: cover;
+
+    padding-bottom: 200px;
+    margin-bottom: -244px
+}
+
+.selling-points__container {
+    background-image: url('../img/globe_small@2x.png');
+    background-size: cover;
+
+    padding: 80px 100px;
+}
+
+.selling-points__title {
+    color: $white;
+    margin-top: 0;
+}
+
+.selling-points__btn {
+    margin-top: 84px;
+}

@@ -1,6 +1,7 @@
 .btn {
     @include reset('link');
-
+    display: inline-block;
+    
     padding: 23px 50px 21 40px;
     min-width: 275px;
 
@@ -13,4 +14,8 @@
 
     border: 4px solid $brand--primary;
 
+    &--secondary {
+        color: $white;
+        border-color: $white;
+    }
 }
